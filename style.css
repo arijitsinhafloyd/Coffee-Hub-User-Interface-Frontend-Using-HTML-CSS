@@ -294,6 +294,7 @@ only screen and (width: 853px) and (height:1280px) {
 .footer1{
     background-color: rgb(214, 197, 175);
     height:30px;
+    width:100%;
     padding-top:10px;
     padding-bottom:32px;
 }
@@ -302,8 +303,11 @@ only screen and (width: 853px) and (height:1280px) {
     color:rgb(255, 253, 253);
     background-color: rgba(110, 37, 37, 0.63);
     height:10vh;
-    margin-top:50px;
     text-align: center;
+    width:100%;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;;
 }
 .textbox p{
     display:flex;
