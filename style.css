@@ -191,6 +191,14 @@ li:hover{
 .footer1 p{
     text-align: right;
     margin-right:20px;
+    color: white;
+}
+.footer1{
+    background-color: rgb(19, 17, 17);
+    height:30px;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:32px;
 }
 @media only screen and (max-width: 800px){
     ul li{
@@ -291,16 +299,7 @@ only screen and (width: 853px) and (height:1280px) {
     }
 }
 
-.footer1{
-    background-color: rgb(19, 17, 17);
-    height:30px;
-    width:100%;
-    padding-top:10px;
-    padding-bottom:32px;
-}
-.footer1 p{
-    color: white;
-}
+
 .textbox{
     border:2px solid brown;
     color:rgb(255, 253, 253);
