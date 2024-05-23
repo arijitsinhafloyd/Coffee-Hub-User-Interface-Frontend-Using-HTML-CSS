@@ -281,18 +281,13 @@ only screen and (width: 853px) and (height:1280px) {
     .Heading{
         height:6vh;
     }
-    .textbox{
-        height:115px;
-        padding-top:11px;
-        padding-bottom:3px;
-    }
 }
-@media only screen and (width: 344px) and (height:882px){
-    .textbox {
-        position:relative;
-        margin:auto;
-        width:55vw;
-        left:-12px;
+@media only screen and (width: 1080px) and (height:1920px){
+    .Heading{
+        height:5vh;
+    }
+    .textbox{
+        font-size:30px;
     }
 }
 
@@ -307,7 +302,6 @@ only screen and (width: 853px) and (height:1280px) {
     color:rgb(255, 253, 253);
     background-color: rgba(110, 37, 37, 0.63);
     height:10vh;
-    margin:0 25vw;
     margin-top:50px;
     text-align: center;
 }
