@@ -49,45 +49,27 @@ li:hover{
 }
 .container{
     background-color:rgba(39, 38, 38, 0.705);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
     margin-top:15px;
     margin-left:10px;
     margin-right:10px;
-    padding:10px;
+    margin-bottom:50px;
+    padding:20px;
     height:auto;
     display:flex;
     text-align:center;
-}
-
-.container2{
-    background-color:rgba(39, 38, 38, 0.61);
-    margin-left:10px;
-    margin-right:10px;
-    padding:10px;
-    display:flex;
-    text-align:center;
-}
-.container3{
-    background-color:rgba(39, 38, 38, 0.582);
-    margin-left:10px;
-    margin-right:10px;
-    margin-bottom:110px;
-    padding:10px;
-    padding-bottom:90px;
-    height:auto;
-    display:flex;
-    text-align:center;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    flex-wrap:wrap;
 }
 .box1,.box2,.box3,.box4,.box5,.box6{
     background-color:rgb(105, 11, 11);
     height:70vh;
-    width:50%;
+    width:48%;
     margin:10px;
     margin-bottom:20px;
-    border-radius:10px;
+    border-radius:25px;
+}
+.box6{
+    margin-bottom:16px;
 }
 .box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover{
     transform: scale(0.9);
@@ -101,7 +83,7 @@ li:hover{
     display:flex;
     overflow:hidden;
     border:3px solid rgb(105, 11, 11);
-    border-radius:10px;
+    border-radius:25px;
 }
 .img1 img{
     width:100%;
@@ -134,7 +116,8 @@ li:hover{
     background-color: rgba(22, 22, 21, 0.5);
     bottom:0;
     padding:12px;
-
+    font-family: Poppins;
+    font-size:15.5px;
 }
 .osh,.osh1{
     position: absolute;
@@ -143,7 +126,7 @@ li:hover{
     padding:15px;
     font-size:18px;
     text-shadow: 2px 2px 2px black;
-}
+    }
 
 .ot2{
     position:absolute;
@@ -153,6 +136,8 @@ li:hover{
     bottom:0;
     padding:5px;
     padding-bottom:39px;
+    font-family: Poppins;
+    font-size:15.5px;
 }
 
 .ot3{
@@ -163,6 +148,8 @@ li:hover{
     bottom:0;
     padding:5px;
     padding-bottom:17px;
+    font-family: Poppins;
+    font-size:15.5px;
 }
 
 .ot4{
@@ -173,6 +160,8 @@ li:hover{
     bottom:0;
     padding:5px;
     padding-bottom:17px;
+    font-family: Poppins;
+    font-size:15.5px;
 }
 
 .ot5{
@@ -183,6 +172,8 @@ li:hover{
     bottom:0;
     padding:5px;
     padding-bottom:25px;
+    font-family: Poppins;
+    font-size:15.5px;
 }
 
 .ot6{
@@ -193,6 +184,8 @@ li:hover{
     bottom:0;
     padding:5px;
     padding-bottom:25px;
+    font-family: Poppins;
+    font-size:15.5px;
 }
 .footer1 p{
     text-align: right;
@@ -218,25 +211,6 @@ li:hover{
     .img2,.img4,.img6{
         height:100%;
     }
-    .box2{
-        margin-bottom:0px;
-    }
-    .box4,.box6{
-        margin-bottom:0px;
-    }
-    .container2{
-        flex-direction:column;
-        padding-top:10px;
-        margin-top:0px;
-        padding-bottom:0px;
-    }
-    .container3{
-        flex-direction:column;
-        padding-top:18px;
-        margin-top:0px;
-        padding-bottom:70px;
-    }
-    
     .boxu{
         width:93%;
         height: 60vh;
@@ -270,6 +244,9 @@ li:hover{
         padding-bottom:13px;
     }
     .ot4{
+        padding-bottom:13px;
+    }
+    .ot5,.ot6{
         padding-bottom:13px;
     }
 }
